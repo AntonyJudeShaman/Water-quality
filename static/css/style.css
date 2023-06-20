@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body{
+  opacity: 0.8;
+  font-family: 'Tilt Neon';
+  max-width: 100vw;
+  max-height: 80vh;
+  background: rgb(122,53,244);
+  background: radial-gradient(circle, rgb(57, 23, 116) 0%, rgb(16, 10, 85) 89%);
+}
+.App {
+  background: linear-gradient(to top right, #056d90 0%, rgb(46, 40, 40) 100%) !important; 
+  background-color: rgb(84, 150, 179);  
+  
+  text-align: center;
+  opacity: 1;
+
+}
+
+.form-container {
+  font-family: 'Tilt Neon';
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 55px;
+  border: 2px solid #c300ff;
+  margin-top: 3%;
+  padding-bottom: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+  
+  @media only screen and (min-width: 200px) and (max-width: 768px) {
+    .form-container {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        background: linear-gradient( #053f7e,#858789,);
+        border: 2px solid #c300ff;
+        margin-top: 35%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      .head{
+        font-size: 2vh;
+        font-family: 'Tilt Neon';
+      }
+  }
+.head{
+  font-size: 200%;
+  font-family: 'Tilt Neon';
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top {
+    color:aliceblue;
+    margin-bottom: 3%;
+    margin-left: -90%;
+    
+  }
+
+ p{
+  color:rgb(4, 215, 191);
+  font-size: 1.7rem;
+  margin-top: -1%;
+  margin-bottom: 0;
+ }
+h1{
+  color:rgb(4, 215, 191);
+}
+  .mtop {
+    color:aliceblue;
+    margin-bottom: 5px;
+    margin-left: -85%;
+    margin-top: 3%;
+  }
+  .ctop {
+    color:aliceblue;
+    margin-bottom: 5px;
+    margin-left: -78%;
+    margin-top: 3%;
+  }
+
+  @media (max-width: 450px) {
+    .top {
+      color:aliceblue;
+      margin-bottom: 3%;
+      margin-left: -80%;
+      margin-top: 3%;
+    }
+  
+   
+  
+    .mtop {
+      color:aliceblue;
+      margin-bottom: 5px;
+      margin-left: -75%;
+      margin-top: 3%;
+    }
+    
+  }
+  
+  input{
+    padding: 25px;
+    border: 2px solid #91edff;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    color: aliceblue;
+  }
+
+  input:focus,
+textarea:focus {
+  background-color: #004765;
+}
+
+input:hover,
+textarea:hover {
+  border: 2px solid#a200ff;
+}
+  
+  button {
+    padding:25px;
+    background-color: #a200ff;
+    color: #08f7ff;
+    border: 2px solid #91edff;
+    border-radius: 5px;
+    font-size: 180%;
+    cursor: pointer;
+    margin-top: 4%;
+    font-family: 'Tilt Neon';
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+    border: 2px solid #00ff73;
+    padding: 25px;
+  }
+
+  ::placeholder {
+    color: rgb(233, 233, 233);
+    font-size: large;
+    font-family: 'Tilt Neon';
+  }
+
+
